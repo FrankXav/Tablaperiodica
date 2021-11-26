@@ -4,16 +4,16 @@ class Elemento:
     Numero_Atomico="Numero Atomico"
     Periodo="Periodo"
     Grupo="Grupo"
-    Peso_atomico="Peso Atomico"
+    Masa_Atomica="Masa Atomica"
     Densidad="Densidad elemento"
     Categoria="Categoria"
     Informacion="Informacion del elemento"
 
-    def __init__(self,Nombre,Simbolo,Numero_Atomico,Peso_atomico,Periodo,Grupo,Densidad,Categoria,Informacion):
+    def __init__(self,Nombre,Simbolo,Numero_Atomico,Masa_Atomica,Periodo,Grupo,Densidad,Categoria,Informacion):
         self.Nombre=Nombre
         self.Simbolo=Simbolo
         self.Numero_Atomico=Numero_Atomico
-        self.Peso_atomico=Peso_atomico
+        self.Masa_Atomica=Masa_Atomica
         self.Periodo=Periodo
         self.Grupo=Grupo
         self.Densidad=Densidad
@@ -24,7 +24,7 @@ class Elemento:
         print(f'Nombre: {self.Nombre}')
         print(f'Simbolo : {self.Simbolo}')
         print(f'Numero Atomico: {self.Numero_Atomico}')
-        print(f'Peso Atomico: {self.Peso_atomico}')
+        print(f'Masa Atomica: {self.Masa_Atomica}')
         print(f'Periodo: {self.Periodo}')
         print(f'Grupo: {self.Grupo}')
         print(f'Densidad: {self.Densidad}')
