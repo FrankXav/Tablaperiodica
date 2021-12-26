@@ -1,0 +1,19 @@
+psql -l # ver bases de deatos creadas
+createdb "nombre sin comillas numeva base de datos"
+psql -d Tablaperiodica #accesar a esa tabla periodica
+http://127.0.0.1/pgadmin4
+
+CREATE TABLE Usuario(id INTEGER PRIMARY KEY NOT NULL, Nombre VARCHAR(20), Apellido_Paterno VARCHAR(20), Apellido_Materno VARCHAR(20), Nickname VARCHAR(25), Correo VARCHAR(30), Contraseña VARCHAR(20));
+
+CREATE TABLE Consulta(id INTEGER PRIMARY KEY NOT NULL, Fecha DATE, Hora VARCHAR(10), Nombre_Elemento INTEGER REFERENCES elemento(id), Usuario INTEGER REFERENCES usuario(id));
+
+CREATE TABLE Elemento(id INTEGER PRIMARY KEY NOT NULL, Nombre CHAR(15), Simbolo CHAR(3),no_atomico INTEGER,masa_atomica CHAR(15),periodo INTEGER, grupo INTEGER, densidad CHAR(15),categoria CHAR(20),Informacion CHAR(600));
+
+CONDICION
+SELECT * FROM public.elemento WHERE periodo=7 ;
+
+orden
+SELECT * FROM public.elemento WHERE periodo=7 ORDER BY nombre DESC ;
+
+LIMITE
+SELECT * FROM public.elemento WHERE periodo=7 ORDER BY nombre ASC LIMIT 5;
