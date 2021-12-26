@@ -1,0 +1,354 @@
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (1,'Hidrogeno','H',1,'1.00784 u',1,1,'0,071 g/ml','No Metales','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (2,'Helio','He',2,'4.0026 u',1,18,'34 g/ml','Gases Nobles','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (3,'Litio','Li',3,'6.941 u',2,1,'0.53 g/ml','Metales alcalinos','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (4,'Berilio','Be',4,'9.0122 u',2,2,'1.85 g/ml','alcalinotérreos','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (5,'Boro','B',5,'10.811 u',2,13,'2.34 g/ml','Metaloides','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (6,'Carbono','C',6,'12.01115 u',2,14,'2.26 g/ml','No Metales','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (7,'Nitrogeno','N',7,'14.0067 u',2,15,'0.81 g/ml','No Metales','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (8,'Oxigeno','O',8,'15.9994 u',2,16,'1.429 g/ml','No Metales','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (9,'Fluor','F',9,'18.9984 u',2,17,'1.11 g/ml','Halogenos','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (10,'Neon','Ne',10,'20.179 u',2,18,'1.20 g/ml','Gases Nobles','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (11,'Sodio','Na',11,'22.9898 u',3,1,'0.97 g/ml','Metales Alcalinos','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (12,'Magnesio','Mg',12,'24.305 u',3,2,'1.74 g/ml','Alcalinotérreos','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (13,'Aluminio','Al',13,'24.305 u',3,13,'1.74 g/ml','Metales','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (14,'Silicio','Si',14,'28.086 u',3,14,'2.33 g/ml','Metaloides','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (15,'Fosforo','P',15,'30.9738 u',3,15,'1.82 g/ml','No Metales','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (16,'Azufre','S',16,'32,064 u',3,16,'2,07 g/ml','No Metales','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (17,'Cloro','Cl',17,'35,453 u',3,17,'1,56 g/ml','Halogenos','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (18,'Argon','Ar',18,'39,948 u',3,18,'1,40 g/ml','Gases Nobles','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (19,'Potasio','K',19,'39,098 u',4,1,'0,97 g/ml','Metales Alcalinos','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (20,'Calcio','Ca',20,'40,08 u',4,2,'1,55 g/ml','Alcalinotérreos','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (21,'Escandio','Sc',21,'44,956 u',4,3,'3,0 g/ml','Metales de transición','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (22,'Titanio','Ti',22,'47,90 u',4,4,'4,51 g/ml','Metales de transición','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (23,'Vanadio','V',23,'50,942 u',4,5,'4,51 g/ml','Metales de transición','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (24,'Cromo','Cr',24,'51,996 u',4,6,'7,19 g/ml','Metales de transición','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (25,'Manganeso','Mn',25,'54,938 u',4,7,'7,43 g/ml','Metales de transición','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (26,'Hierro','Fe',26,'55,847 u',4,8,'7,86 g/ml','Metales de transición','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (27,'Cobalto','Co',27,'58,93 u',4,9,'8,9 g/ml','Metales de transición','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (28,'Niquel','Ni',28,'58,71 u',4,10,'8,9 g/ml','Metales de transición','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (29,'Cobre','Cu',29,'63,54 u',4,11,'8,96 g/ml','Metales de transición','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (30,'Zinc','Zn',30,'65,37 u',4,12,'7,14 g/ml','Metales de transición','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (31,'Galio','Ga',31,'69,72 u',4,13,'5,91 g/ml','Metal','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (32,'Germanio','Ge',32,'72,59 u',4,14,'5,32 g/ml','Metaloides','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (33,'Arsenico','As',33,'74,922 u',4,15,'5,72 g/ml','Metaloides','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (34,'Selenio','Se',34,'78,96 u',4,16,'4,79 g/ml','No metales','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (35,'Bromo','Br',35,'79,909 u',4,17,'3,12 g/ml','Halogenos','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (36,'Kriptón','Kr',36,'83,80 u',4,18,'2,6 g/ml','Gases Nobles','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (37,'Rubidio','Rb',37,'85,47 u',5,1,'1,53 g/ml','Metales alcalinos','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (38,'Estroncio','Sr',38,'87,62 u',5,2,'2,6 g/ml','Alcalinotérreos','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (39,'Itrio','Y',39,'88,906 u',5,3,'4,47 g/ml','Metales de transición','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (40,'Zirconio','Zr',40,'91,22 u',5,4,'6,49 g/ml','Metales de transición','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (41,'Niobio','Nb',41,'92,906 u',5,5,'8,4 g/ml','Metales de transición','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (42,'Molibdeno','Mo',42,'95,94 u',5,6,'10.2 g/ml','Metales de transición','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (43,'Tecnecio','Tc',43,'97 u',5,7,'11,5 g/ml','Metales de transición','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (44,'Rutenio','Ru',44,'101,07 u',5,8,'12,2 g/ml','Metales de transición','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (45,'Rodio','Rh',45,'102,905 u',5,9,'12,4 g/ml','Metales de transición','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (46,'Paladio','Pd',46,'106,4 u',5,10,'12,0 g/ml','Metales de transición','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (47,'Plata','Ag',47,'107.9 u',5,11,'10,5 g/ml','Metal de transicion','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (48,'Cadmio','Cd',48,'112.4 u',5,12,'8,65 g/ml','Metales de transición','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (49,'Indio','In',49,'118.7 u',5,13,'7,31 g/ml','Metales','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (50,'Estaño','Sn',50,'118.7 u',5,14,'7.3 g/ml','Metales','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (51,'Antimonio','Sb',51,'121.8 u',5,15,'6,62 g/ml','Metaloides','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (52,'Teluro','Te',52,'127.6 u',5,16,'6,24 g/ml','Metaloides','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (53,'Yodo','I',53,'126.9 u',5,17,'4,94 g/ml','Halogenos','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (54,'Xenón','Xe',54,'131.3 u',5,18,'3,06 g/ml','Gases Nobles','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (55,'Cesio','Cs',55,'132.9 u',6,1,'1,90 g/ml','Metales alcalinos','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (56,'Bario','Ba',56,'137.3 u',6,2,'3,5 g/ml','Alcalinotérreos','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (57,'Latano','La',57,'138.9 u',6,3,'6.18 g/ml','Lantanidos','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (58,'Cerio','Ce',58,'140.1 u',6,3,'6,67 g/ml','Lantanidos','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (59,'Praseodimio','Pr',59,'140.9 u',6,3,'6,77 g/ml','Lantanidos','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (60,'Neodimio','Nd',60,'144.2 u',6,3,'7 g/ml','Lantanidos','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (61,'Prometio','Pm',61,'147 u',6,3,'- g/ml','Lantanidos','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (62,'Samario','Sm',62,'150.3 u',6,3,'7,54 g/ml','Lantanidos','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (63,'Europio','Eu',63,'152 u',6,3,'5,26 g/ml','Lantanidos','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (64,'Gadolinio','Gd',64,'157.2 u',6,3,'7,89 g/ml','Lantanidos','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (65,'Terbio','Tb',65,'158.9 u',6,3,'8,27 g/ml','Lantanidos','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (66,'Disprocio','Dy',66,'162.5 u',6,3,'8,54 g/ml','Lantanidos','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (67,'Holmio','Ho',67,'164.9 u',6,3,'8,80 g/ml','Lantanidos','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (68,'Erbio','Er',68,'167.3 u',6,3,'9,05 g/ml','Lantanidos','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (69,'Tulio','Tm',69,'168.9 u',6,3,'9.33 g/ml','Lantanidos','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (70,'Iterbio','Yb',70,'173 u',6,3,'6,98 g/ml','Lantanidos','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (71,'Lutecio','Lu',71,'175 u',6,3,'9,84 g/ml','Metales de transición','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (72,'Hafnio','Hf',72,'178.5 u',6,4,'13,1 g/ml','Metales de transición','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (73,'Tantalio','Ta',73,'180.9 u',6,5,'16,61 g/ml','Metales de transición','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (74,'Volframio','W',74,'183.8 u',6,6,'19,3 g/ml','Metales de transición','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (75,'Renio','Re',75,'186.2 u',6,7,'21,0 g/ml','Metales de transición','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (76,'Osmio','Os',76,'190.2 u',6,8,'22,6 g/ml','Metales de transición','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (77,'Iridio','Ir',77,'192.2 u',6,9,'22,5 g/ml','Metales de transición','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (78,'Platino','Pt',78,'195.1 u',6,10,'21,4 g/ml','Metales de transición','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (79,'Oro','Au',79,'197 u',6,11,'19,3 g/ml','Metales de transición','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (80,'Mercurio','Hg',80,'200.6 u',6,12,'16,6 g/ml','Metales de transición','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (81,'Talio','Tl',81,'204.4 u',6,13,'11,85 g/ml','Metales','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (82,'Plomo','Pb',82,'207.2 u',6,14,'11,4 g/ml','Metales','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (83,'Bismuto','Bi',83,'209.2 u',6,15,'9.8 g/ml','Metales','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (84,'Polonio','Po',84,'210 u',6,16,'9,2 g/ml','Metaloides','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (85,'Astato','At',85,'210 u',6,17,'- g/ml','Hálogenos','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (86,'Radón','Rn',86,'222 u',6,18,'- g/ml','Gases Nobles','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (87,'Francio','Fr',87,'233 u',7,1,'- g/ml','Metales Alcalinos','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (88,'Radio','Ra',88,'266 u',7,2,'5 g/ml','Alcalinotérreos','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (89,'Actinio','Ac',89,'227 u',7,3,'10.07 g/ml','Latanidos','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (90,'Torio','Th',90,'232 u',7,3,'11,7 g/ml','Latanidos','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (91,'Protactinio','Pa',91,'231 u',7,3,'15,4 g/ml','Latanidos','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (92,'Uranio','U',92,'238 u',7,3,'18,95 g/ml','Latanidos','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (93,'Neptunio','Np',93,'237 u',7,3,'20.2 g/ml','Latanidos','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (94,'Plutonio','Pu',94,'242 u',7,3,'- g/ml','Latanidos','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (95,'Americio','Am',95,'243 u',7,3,'11,7 g/ml','Latanidos','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (96,'Curio','Cm',96,'247 u',7,3,'- g/ml','Latanidos','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (97,'Berquelio','Bk',97,'247 u',7,3,'- g/ml','Latanidos','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (98,'Californio','Cf',98,'251 u',7,3,'- g/ml','Latanidos','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (99,'Einstenio','Es',99,'252 u',7,3,'- g/ml','Latanidos','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (100,'Fermio','Fm',100,'257 u',7,3,'- g/ml','Latanidos','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (101,'Mendelevio','Md',101,'256 u',7,3,'- g/ml','Latanidos','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (102,'Nobelio','No',102,'259 u',7,3,'- g/ml','Latanidos','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (103,'Laurencio','Lr',103,'262 u',7,3,'- g/ml','Metales de transición','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (104,'Rutherfordio','Rf',104,'261.1 u',7,4,'- g/ml','Metales de transición','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (105,'Dubnio','Db',105,'262.1 u',7,5,'- g/ml','Metales de transición','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (106,'Seaborgio','Sg',106,'263.1 u',7,6,'- g/ml','Metales de transición','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (107,'Bohrio','Bh',107,'264.1 u',7,7,'- g/ml','Metales de transición','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (108,'Hassio','Hs',108,'277 u',7,8,'- g/ml','Metales de transición','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (109,'Meitnerio','Mt',109,'268 u',7,9,'- g/ml','Metales de transición','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (110,'Darmstatio','Ds',110,'271 u',7,10,'- g/ml','Metales de transición','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (111,'Roentgenio','Rg',111,'272 u',7,11,'- g/ml','Metales de transición','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (112,'Copernicio','Cn',112,'285 u',7,12,'- g/ml','Metales de transición','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (113,'Nihonio','Nh',113,'284 u',7,13,'- g/ml','Metales','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (114,'Flerevio','Fl',114,'289 u',7,14,'- g/ml','Metales','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (115,'Moscovio','Mc',115,'288 u',7,15,'- g/ml','Metales','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (116,'Livermorio','Lv',116,'292 u',7,16,'- g/ml','Metales','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (117,'Teneso','Ts',117,'294 u',7,17,'- g/ml','Halógenos','');
+INSERT INTO public.elemento(
+    id, nombre, simbolo, no_atomico, masa_atomica, periodo, grupo, densidad, categoria, informacion)
+    VALUES (118,'Oganesón','Og',118,'294 u',7,18,'- g/ml','Gases Nobles','');
