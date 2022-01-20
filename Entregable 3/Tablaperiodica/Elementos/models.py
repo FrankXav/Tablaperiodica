@@ -4,7 +4,7 @@ from django.db import models
 
 class User(models.Model):
     Name = models.CharField(max_length=100, blank=False, null=False)
-    Apellido = models.CharField(max_length=100, blank=False, null=False)
+    Apellido = models.CharField(max_length=100, blank=False, null=True)
     Nickname = models.CharField(max_length=50, blank=False, null=False, unique=True)
     Correo = models.EmailField(unique=True)
 

@@ -30,11 +30,7 @@ Periodo=1
 Grupo=18
 Categoria="Gases Nobles"
 Densidad = "34 g/ml"
-Informacion='''El helio es un gas incoloro, inodoro e insípido. Tiene menor solubilidad en agua que 
-cualquier otro gas. Es el elemento menos reactivo y esencialmente no forma compuesto químicos. La 
-densidad y la viscosidad del vapor de helio son muy bajas. La conductividad térmica y el contenido 
-calórico son excepcionalmente altos. El helio puede licuarse, pero su temperatura de condensación 
-es la más baja de cualquier sustancia conocida.'''
+Informacion='''El helio es un gas incoloro, inodoro e insípido. Tiene menor solubilidad en agua que cualquier otro gas. Es el elemento menos reactivo y esencialmente no forma compuesto químicos. La densidad y la viscosidad del vapor de helio son muy bajas. La conductividad térmica y el contenido calórico son excepcionalmente altos. El helio puede licuarse, pero su temperatura de condensación es la más baja de cualquier sustancia conocida.'''
 Helio=Elemento(Nombre,Simbolo,Numero_Atomico,Masa_Atomica,Periodo,Grupo,Densidad,Categoria,Informacion)
 ListaElementos.append(Helio)
 
@@ -47,10 +43,7 @@ Periodo=2
 Grupo=1
 Categoria="Metales alcalinos"
 Densidad = "0.53 g/ml"
-Informacion='''El litio encabeza la familia de los metales alcalinos en la tabla periódica. En 
-la naturaleza se encuentra como una mezcla de los isótopos Li6 y Li7. Es el metal sólido más 
-ligero, es blando, de bajo punto de fusión y reactivo. Muchas propiedades físicas y químicas 
-son tan o más parecidas a las de los metales alcalinotérreos que a las de su grupo.'''
+Informacion='''El litio encabeza la familia de los metales alcalinos en la tabla periódica. En la naturaleza se encuentra como una mezcla de los isótopos Li6 y Li7. Es el metal sólido más ligero, es blando, de bajo punto de fusión y reactivo. Muchas propiedades físicas y químicas son tan o más parecidas a las de los metales alcalinotérreos que a las de su grupo.'''
 Litio=Elemento(Nombre,Simbolo,Numero_Atomico,Masa_Atomica,Periodo,Grupo,Densidad,Categoria,Informacion)
 ListaElementos.append(Litio)
 
