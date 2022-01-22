@@ -82,11 +82,11 @@ WSGI_APPLICATION = 'Tablaperiodica.wsgi.application'
 import dj_database_url
 from decouple import config 
 
-DATABASE ={
+""" DATABASE ={
     'default':dj_database_url.config(
         default=config('DATABASE_URL')
     )
-}
+} """
 
 """ DATABASES = {
 

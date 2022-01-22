@@ -37,7 +37,7 @@ Numero_Atomico=3
 Masa_Atomica = "6.941 u"
 Periodo=2
 Grupo=1
-Categoria="Metales alcalinos"
+Categoria="Metales Alcalinos"
 Densidad = "0.53 g/ml"
 Informacion='''El litio encabeza la familia de los metales alcalinos en la tabla periódica. En la naturaleza se encuentra como una mezcla de los isótopos Li6 y Li7. Es el metal sólido más ligero, es blando, de bajo punto de fusión y reactivo. Muchas propiedades físicas y químicas son tan o más parecidas a las de los metales alcalinotérreos que a las de su grupo.'''
 Litio=Elemento(Nombre,Simbolo,Numero_Atomico,Masa_Atomica,Periodo,Grupo,Densidad,Categoria,Informacion)
@@ -50,7 +50,7 @@ Numero_Atomico=4
 Masa_Atomica = "9.0122 u"
 Periodo=2
 Grupo=2
-Categoria="alcalinotérreos"
+Categoria="Alcalinotérreos"
 Densidad = "1.85 g/ml"
 Informacion='''El berilio, metal raro, es uno de los metales estructurales más ligeros, 
 su densidad es cerca de la tercera parte de la del aluminio. El principal uso del berilio 
@@ -132,7 +132,7 @@ Numero_Atomico=9
 Masa_Atomica = "18.9984 u"
 Periodo=2
 Grupo=17
-Categoria="Halogenos"
+Categoria="Halógenos"
 Densidad = "1.11 g/ml"
 Informacion='''El flúor elemental es un gas de color amarillo pálido a temperaturas normales. El olor del
 elemento es algo que está todavía en duda. La reactividad del elemento es tan grande que reacciona 
@@ -260,7 +260,7 @@ Numero_Atomico=17
 Masa_Atomica = "35,453 u"
 Periodo=3
 Grupo=17
-Categoria="Halogenos"
+Categoria="Halógenos"
 Densidad = "1,56 g/ml"
 Informacion='''El cloro existe como un gas amarillo-verdoso a temperaturas y presiones ordinarias. Es el 
 segundo en reactividad entre los halógenos, sólo después del flúor, y de aquí que se encuentre libre en 
@@ -480,7 +480,7 @@ Numero_Atomico=31
 Masa_Atomica = "69,72 u"
 Periodo=4
 Grupo=13
-Categoria="Metal"
+Categoria="Metales"
 Densidad = "5,91 g/ml"
 Informacion='''Tiene un gran intervalo de temperatura en el estado líquido, y se ha recomendado su uso en termómetros de 
 alta temperatura y manómetros. En aleación con plata y estañó, el galio suple en forma adecuada la amalgama en curaciones 
@@ -529,7 +529,7 @@ Numero_Atomico=34
 Masa_Atomica = '78,96 u'
 Periodo=4
 Grupo=16
-Categoria='No metales'
+Categoria='No Metales'
 Densidad = '4,79 g/ml'
 Informacion='''Los empleos más importantes del selenio son el proceso de fotocopiado xerográfico, la decoloración 
 de vidrios teñidos por compuestos de hierro, y también se usa como pigmento en plásticos, pinturas, barnices, 
@@ -545,7 +545,7 @@ Numero_Atomico=35
 Masa_Atomica = '79,909 u'
 Periodo=4
 Grupo=17
-Categoria='Halogenos'
+Categoria='Halógenos'
 Densidad = '3,12 g/ml'
 Informacion='''Elemento químico, Br, número atómico 35 y peso atómico 79.909, por lo común existe como Br2; 
 líquido de olor intenso e irritante, rojo oscuro y de bajo punto de ebullición, pero de alta densidad. Es el 
@@ -578,7 +578,7 @@ Numero_Atomico=37
 Masa_Atomica = '85,47 u'
 Periodo=5
 Grupo=1
-Categoria='Metales alcalinos'
+Categoria='Metales Alcalinos'
 Densidad = '1,53 g/ml'
 Informacion=''' El rubidio es un metal alcalino, reactivo, ligero y de bajo punto de fusión. La mayor parte de 
 los usos de rubidio metálico y de sus compuestos son los mismos que los del cesio y sus compuestos. El metal se 
@@ -733,7 +733,7 @@ Numero_Atomico=47
 Masa_Atomica = '107.9 u'
 Periodo=5
 Grupo=11
-Categoria='Metal de transicion'
+Categoria='Metales de transición'
 Densidad = '10,5 g/ml'
 Informacion='''Es un metal lustroso de color blanco-grisáceo. Desde el punto de vista químico, es uno de los 
 metales pesados y nobles; desde el punto de vista comercial, es un metal precioso. Hay 25 isótopos de la plata. 
@@ -828,7 +828,7 @@ Numero_Atomico=53
 Masa_Atomica = '126.9 u'
 Periodo=5
 Grupo=17
-Categoria='Halogenos'
+Categoria='Halógenos'
 Densidad = '4,94 g/ml'
 Informacion='''Elemento no metálico, símbolo I, número atómico 53, masa atómica relativa 126.904, el más 
 pesado de los halógenos (halogenuros) que se encuentran en la naturaleza. En condiciones normales, el yodo es 
@@ -861,7 +861,7 @@ Numero_Atomico=55
 Masa_Atomica = '132.9 u'
 Periodo=6
 Grupo=1
-Categoria='Metales alcalinos'
+Categoria='Metales Alcalinos'
 Densidad = '1,90 g/ml'
 Informacion='''El más pesado de los metales alcalinos en el grupo IA de la tabla periódica, a excepción 
 del francio, miembro radiactivo de la familia de los metales alcalinos. El cesio es un metal blando, 
@@ -1345,7 +1345,7 @@ Numero_Atomico=85
 Masa_Atomica = '210 u'
 Periodo=6
 Grupo=17
-Categoria='Hálogenos'
+Categoria='Halógenos'
 Densidad = '- g/ml'
 Informacion='''El ástato es el elemento más pesado del grupo de los halógenos, ocupa el lugar debajo del 
 yodo en el grupo VII de la tabla periódica. El ástato es un elemento muy inestable, que existe sólo en formas 
@@ -1410,7 +1410,7 @@ Numero_Atomico=89
 Masa_Atomica = '227 u'
 Periodo=7
 Grupo=3
-Categoria='Latanidos'
+Categoria='Actinido'
 Densidad = '10.07 g/ml'
 Informacion='''El actinio es un elemento metálico radiactivo plateado. El actinio brilla en la oscuridad 
 debido a su intensa radiactividad con una luz azul.  El actinio fue descubierto en 1899 por André-Louis 
@@ -1426,7 +1426,7 @@ Numero_Atomico=90
 Masa_Atomica = '232 u'
 Periodo=7
 Grupo=3
-Categoria='Latanidos'
+Categoria='Actinido'
 Densidad = '11,7 g/ml'
 Informacion='''Los compuestos de óxido de torio se utilizan en la producción de mantas de gas incandescentes. 
 El óxido de torio se ha empleado también incorporado al tungsteno metálico, y sirve para producir filamentos 
@@ -1443,7 +1443,7 @@ Numero_Atomico=91
 Masa_Atomica = '231 u'
 Periodo=7
 Grupo=3
-Categoria='Latanidos'
+Categoria='Actinido'
 Densidad = '15,4 g/ml'
 Informacion='''Los isótopos con número de masa 216, 217 y 222-238 son radiactivos. Sólo 231Pa, 234Pa y 234mPa 
 están presentes en la naturaleza. El más importante de ellos es el 231Pa, emisor alfa con una vida media de 32 500 años. 
@@ -1459,7 +1459,7 @@ Numero_Atomico=92
 Masa_Atomica = '238 u'
 Periodo=7
 Grupo=3
-Categoria='Latanidos'
+Categoria='Actinido'
 Densidad = '18,95 g/ml'
 Informacion='''El uranio es una mezcla de tres isótopos: 234U,235U y238U. Se cree que está localizado principalmente 
 en la corteza terrestre, donde la concentración promedio es 4 partes por millón (ppm). El contenido total en la 
@@ -1476,7 +1476,7 @@ Numero_Atomico=93
 Masa_Atomica = '237 u'
 Periodo=7
 Grupo=3
-Categoria='Latanidos'
+Categoria='Actinido'
 Densidad = '20.2 g/ml'
 Informacion=''' El neptunio es un miembro de los actínidos o de la serie 
 de elementos 5f. Fue sintetizado como el primer elemento transuránico en 
@@ -1492,7 +1492,7 @@ Numero_Atomico=94
 Masa_Atomica = '242 u'
 Periodo=7
 Grupo=3
-Categoria='Latanidos'
+Categoria='Actinido'
 Densidad = '- g/ml'
 Informacion='''Es un metal plateado, reactivo, de la serie de los actínidos. El isótopo principal de interés 
 químico es 239Pu, que tiene una vida media de 24 131 años. Se forma en los reactores nucleares. El plutonio-239 
@@ -1507,7 +1507,7 @@ Numero_Atomico=95
 Masa_Atomica = '243 u'
 Periodo=7
 Grupo=3
-Categoria='Latanidos'
+Categoria='Actinido'
 Densidad = '11,7 g/ml'
 Informacion='''El isótopo 241Am es emisor de partículas alfa, con una vida promedio de 433 años. Los otros 
 isótopos del americio incluyen desde la masa 232 hasta la 247, pero sólo los isótopos de masas 241 y 243 son 
@@ -1523,7 +1523,7 @@ Numero_Atomico=96
 Masa_Atomica = '247 u'
 Periodo=7
 Grupo=3
-Categoria='Latanidos'
+Categoria='Actinido'
 Densidad = '- g/ml'
 Informacion=''' El curio no existe en el ambiente terrestre, pero puede producirse en forma artificial. 
 Sus propiedades químicas se parecen tanto a las de las tierras raras típicas que, si no fuera por su radiactividad, 
@@ -1539,7 +1539,7 @@ Numero_Atomico=97
 Masa_Atomica = '247 u'
 Periodo=7
 Grupo=3
-Categoria='Latanidos'
+Categoria='Actinido'
 Densidad = '- g/ml'
 Informacion='''El berkelio no se encuentra en la corteza terrestre por no tener isótopos estables. Debe prepararse 
 por reacciones nucleares usando elementos blancos más abundantes. Estas reacciones incluyen bombardeo con partículas 
@@ -1554,7 +1554,7 @@ Numero_Atomico=98
 Masa_Atomica = '251 u'
 Periodo=7
 Grupo=3
-Categoria='Latanidos'
+Categoria='Actinido'
 Densidad = '- g/ml'
 Informacion='''Su descubrimiento y producción se basa en la transmutación nuclear artificial de isótopos radiactivos 
 de elementos más ligeros. Todos los isótopos del californio son radiactivos, con intervalo de vidas medias entre un 
@@ -1569,7 +1569,7 @@ Numero_Atomico=99
 Masa_Atomica = '252 u'
 Periodo=7
 Grupo=3
-Categoria='Latanidos'
+Categoria='Actinido'
 Densidad = '- g/ml'
 Informacion='''No se encuentra en la naturaleza, sino que se obtiene de manera artificial por transmutación nuclear 
 de elementos más ligeros. Todos los isótopos del einstenio son radiactivos, con vida media que abarca de unos pocos 
@@ -1584,7 +1584,7 @@ Numero_Atomico=100
 Masa_Atomica = '257 u'
 Periodo=7
 Grupo=3
-Categoria='Latanidos'
+Categoria='Actinido'
 Densidad = '- g/ml'
 Informacion='''El undécimo elemento de los actínidos. El fermio no se encuentra en la naturaleza; su descubrimiento 
 y producción se alcanza por transmutación nuclear artificial de elementos más ligeros. Se han descubierto los isótopos 
@@ -1600,7 +1600,7 @@ Numero_Atomico=101
 Masa_Atomica = '256 u'
 Periodo=7
 Grupo=3
-Categoria='Latanidos'
+Categoria='Actinido'
 Densidad = '- g/ml'
 Informacion=''' El mendelevio no se encuentra en la naturaleza; fue descubierto y se prepara por transmutación 
 nuclear artificial de un elemento más ligero. Sus isótopos conocidos tienen números de masa de 248 a 258 y 
@@ -1616,7 +1616,7 @@ Numero_Atomico=102
 Masa_Atomica = '259 u'
 Periodo=7
 Grupo=3
-Categoria='Latanidos'
+Categoria='Actinido'
 Densidad = '- g/ml'
 Informacion=''' Es un elemento sintético producido en el laboratorio. Su decaimiento se realiza por emisión 
 de partículas alfa, es decir, un ion de helio doblemente cargado. Hasta la fecha sólo se han producido cantidades 
@@ -1632,8 +1632,8 @@ Numero_Atomico=103
 Masa_Atomica = '262 u'
 Periodo=7
 Grupo=3
-Categoria='Metales de transición'
-Densidad = '- g/ml'
+Categoria='Actinido'
+Densidad = '-'
 Informacion='''Se han determinado las propiedades nucleares de todos los isótopos del laurencio de masa 255 a 260. 
 El 260Lr es un emisor alfa con un promedio de vida de 3 minutos y por ello es el isótopo de vida más larga que se conoce.'''
 Laurencio=Elemento(Nombre,Simbolo,Numero_Atomico,Masa_Atomica,Periodo,Grupo,Densidad,Categoria,Informacion)

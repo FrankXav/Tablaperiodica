@@ -1,0 +1,1 @@
+web: gunicorn Tablaperiodica.wsgi --log-file -

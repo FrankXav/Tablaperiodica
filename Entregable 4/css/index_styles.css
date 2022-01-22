@@ -1,0 +1,990 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor {
+    width: 1620px;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.Titulo {
+    background-color: blue;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    letter-spacing: 2px;
+}
+
+.Tablaperiodica {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-areas: "hidrogeno blank1 imagen imagen imagen imagen categorias categorias categorias categorias categorias categorias blank blank blank blank blank helio"
+    "litio berilio imagen imagen imagen imagen categorias categorias categorias categorias categorias categorias boro carbono nitrogeno oxigeno fluor neon"
+    "sodio magnesio imagen imagen imagen imagen categorias categorias categorias categorias categorias categorias aluminio silicio fosforo azufre cloro argon"
+    "potasio calcio escandio titanio vanadio cromo manganeso hierro cobalto niquel cobre zinc galio germanio arsenico selenio bromo kriptón"
+    "rubidio estroncio itrio zirconio niobio molibdeno tecnecio rutenio rodio paladio plata cadmio indio estaño antimonio teluro yodo xenón"
+    "cesio bario lutecio hafnio tantalio volframio renio osmio iridio platino oro mercurio talio plomo bismuto polonio astato radón"
+    "francio radio actinio rutherfordio dubnio seaborgio bohrio hassio meitnerio darmstatio roentgenio copernicio nihonio flerevio moscovio livermorio teneso oganesón"
+    "separacion separacion separacion separacion separacion separacion separacion separacion separacion separacion separacion separacion separacion separacion separacion separacion separacion separacion"
+    "blank2 blank2 latano cerio praseodimio neodimio prometio samario europio gadolinio terbio disprocio holmio erbio tulio iterbio blank3 blank3"
+    "blank2 blank2 laurencio torio protactinio uranio neptunio plutonio americio curio berquelio californio einstenio fermio mendelevio nobelio blank3 blank3";
+    grid-template-columns: repeat(18, 90px);
+    grid-template-rows: repeat(7, 90px) 40px 90px 90px ;
+}
+
+
+.Hidrogeno {
+    grid-area: hidrogeno;
+    background-color: rgb(255, 102, 0);
+    padding: 0;
+    margin: 3px;
+}
+ 
+.Helio {
+    grid-area: helio;
+    background-color: rgb(7, 59, 0);
+    padding: 0;
+    margin: 3px;
+    color: white;
+}
+ 
+.Litio {
+    grid-area: litio;
+    background-color: rgb(0, 0, 90);
+    padding: 0;
+    margin: 3px;
+    color: white;
+}
+ 
+ 
+.Boro {
+    grid-area: boro;
+    background-color: rgb(207, 0, 69);
+    padding: 0;
+    margin: 3px;
+    color: white;
+}
+ 
+.Carbono {
+    grid-area: carbono;
+    background-color: rgb(255, 102, 0);
+    padding: 0;
+    margin: 3px;
+}
+ 
+.Nitrogeno {
+    grid-area: nitrogeno;
+    background-color: rgb(255, 102, 0);
+    padding: 0;
+    margin: 3px;
+}
+ 
+.Oxigeno {
+    grid-area: oxigeno;
+    background-color: rgb(255, 102, 0);
+    padding: 0;
+    margin: 3px;
+}
+ 
+.Fluor {
+    grid-area: fluor;
+    background-color: rgb(0, 156, 8);
+    padding: 0;
+    margin: 3px;
+}
+ 
+.Neon {
+    grid-area: neon;
+    background-color: rgb(7, 59, 0);
+    padding: 0;
+    margin: 3px;
+    color: white;
+}
+ 
+.Sodio {
+    grid-area: sodio;
+    background-color: rgb(0, 0, 90);
+    padding: 0;
+    margin: 3px;
+    color: white;
+}
+ 
+ 
+.Aluminio {
+    grid-area: aluminio;
+    background-color: rgb(98, 0, 122);
+    padding: 0;
+    margin: 3px;
+    color: white;
+}
+ 
+.Silicio {
+    grid-area: silicio;
+    background-color: rgb(207, 0, 69);
+    padding: 0;
+    margin: 3px;
+    color: white;
+}
+ 
+.Fosforo {
+    grid-area: fosforo;
+    background-color: rgb(255, 102, 0);
+    padding: 0;
+    margin: 3px;
+}
+ 
+.Azufre {
+    grid-area: azufre;
+    background-color: rgb(255, 102, 0);
+    padding: 0;
+    margin: 3px;
+}
+ 
+.Cloro {
+    grid-area: cloro;
+    background-color: rgb(0, 156, 8);
+    padding: 0;
+    margin: 3px;
+}
+ 
+.Argon {
+    grid-area: argon;
+    background-color: rgb(7, 59, 0);
+    padding: 0;
+    margin: 3px;
+    color: white;
+}
+ 
+.Potasio {
+    grid-area: potasio;
+    background-color: rgb(0, 0, 90);
+    padding: 0;
+    margin: 3px;
+    color: white;
+}
+ 
+ 
+.Escandio {
+    grid-area: escandio;
+    background-color: rgb(3, 131, 190);
+    padding: 0;
+    margin: 3px;
+    color: white;
+}
+ 
+.Titanio {
+    grid-area: titanio;
+    background-color: rgb(3, 131, 190);
+    padding: 0;
+    margin: 3px;
+    color: white;
+}
+ 
+.Vanadio {
+    grid-area: vanadio;
+    background-color: rgb(3, 131, 190);
+    padding: 0;
+    margin: 3px;
+    color: white;
+}
+ 
+.Cromo {
+    grid-area: cromo;
+    background-color: rgb(3, 131, 190);
+    padding: 0;
+    margin: 3px;
+    color: white;
+}
+ 
+.Manganeso {
+    grid-area: manganeso;
+    background-color: rgb(3, 131, 190);
+    padding: 0;
+    margin: 3px;
+    color: white;
+}
+ 
+.Hierro {
+    grid-area: hierro;
+    background-color: rgb(3, 131, 190);
+    padding: 0;
+    margin: 3px;
+    color: white;
+}
+ 
+.Cobalto {
+    grid-area: cobalto;
+    background-color: rgb(3, 131, 190);
+    padding: 0;
+    margin: 3px;
+    color: white;
+}
+ 
+.Niquel {
+    grid-area: niquel;
+    background-color: rgb(3, 131, 190);
+    padding: 0;
+    margin: 3px;
+    color: white;
+}
+ 
+.Cobre {
+    grid-area: cobre;
+    background-color: rgb(3, 131, 190);
+    padding: 0;
+    margin: 3px;
+    color: white;
+}
+ 
+.Zinc {
+    grid-area: zinc;
+    background-color: rgb(3, 131, 190);
+    padding: 0;
+    margin: 3px;
+    color: white;
+}
+ 
+.Galio {
+    grid-area: galio;
+    background-color: rgb(98, 0, 122);
+    padding: 0;
+    margin: 3px;
+    color: white;
+}
+ 
+.Germanio {
+    grid-area: germanio;
+    background-color: rgb(207, 0, 69);
+    padding: 0;
+    margin: 3px;
+    color: white;
+}
+ 
+.Arsenico {
+    grid-area: arsenico;
+    background-color: rgb(207, 0, 69);
+    padding: 0;
+    margin: 3px;
+    color: white;
+}
+ 
+.Selenio {
+    grid-area: selenio;
+    background-color: rgb(255, 102, 0);
+    padding: 0;
+    margin: 3px;
+}
+ 
+.Bromo {
+    grid-area: bromo;
+    background-color: rgb(0, 156, 8);
+    padding: 0;
+    margin: 3px;
+}
+ 
+.Kriptón {
+    grid-area: kriptón;
+    background-color: rgb(7, 59, 0);
+    padding: 0;
+    margin: 3px;
+    color: white;
+}
+ 
+.Rubidio {
+    grid-area: rubidio;
+    background-color: rgb(0, 0, 90);
+    padding: 0;
+    margin: 3px;
+    color: white;
+}
+ 
+ 
+.Itrio {
+    grid-area: itrio;
+    background-color: rgb(3, 131, 190);
+    padding: 0;
+    margin: 3px;
+    color: white;
+}
+ 
+.Zirconio {
+    grid-area: zirconio;
+    background-color: rgb(3, 131, 190);
+    padding: 0;
+    margin: 3px;
+    color: white;
+}
+ 
+.Niobio {
+    grid-area: niobio;
+    background-color: rgb(3, 131, 190);
+    padding: 0;
+    margin: 3px;
+    color: white;
+}
+ 
+.Molibdeno {
+    grid-area: molibdeno;
+    background-color: rgb(3, 131, 190);
+    padding: 0;
+    margin: 3px;
+    color: white;
+}
+ 
+.Tecnecio {
+    grid-area: tecnecio;
+    background-color: rgb(3, 131, 190);
+    padding: 0;
+    margin: 3px;
+    color: white;
+}
+ 
+.Rutenio {
+    grid-area: rutenio;
+    background-color: rgb(3, 131, 190);
+    padding: 0;
+    margin: 3px;
+    color: white;
+}
+ 
+.Rodio {
+    grid-area: rodio;
+    background-color: rgb(3, 131, 190);
+    padding: 0;
+    margin: 3px;
+    color: white;
+}
+ 
+.Paladio {
+    grid-area: paladio;
+    background-color: rgb(3, 131, 190);
+    padding: 0;
+    margin: 3px;
+    color: white;
+}
+ 
+.Plata {
+    grid-area: plata;
+    background-color: rgb(3, 131, 190);
+    padding: 0;
+    margin: 3px;
+    color: white;
+}
+ 
+.Cadmio {
+    grid-area: cadmio;
+    background-color: rgb(3, 131, 190);
+    padding: 0;
+    margin: 3px;
+    color: white;
+}
+ 
+.Indio {
+    grid-area: indio;
+    background-color: rgb(98, 0, 122);
+    padding: 0;
+    margin: 3px;
+    color: white;
+}
+ 
+.Estaño {
+    grid-area: estaño;
+    background-color: rgb(98, 0, 122);
+    padding: 0;
+    margin: 3px;
+    color: white;
+}
+ 
+.Antimonio {
+    grid-area: antimonio;
+    background-color: rgb(207, 0, 69);
+    padding: 0;
+    margin: 3px;
+    color: white;
+}
+ 
+.Teluro {
+    grid-area: teluro;
+    background-color: rgb(207, 0, 69);
+    padding: 0;
+    margin: 3px;
+    color: white;
+}
+ 
+.Yodo {
+    grid-area: yodo;
+    background-color: rgb(0, 156, 8);
+    padding: 0;
+    margin: 3px;
+}
+ 
+.Xenón {
+    grid-area: xenón;
+    background-color: rgb(7, 59, 0);
+    padding: 0;
+    margin: 3px;
+    color: white;
+}
+ 
+.Cesio {
+    grid-area: cesio;
+    background-color: rgb(0, 0, 90);
+    padding: 0;
+    margin: 3px;
+    color: white;
+}
+ 
+ 
+.Latano {
+    grid-area: latano;
+    background-color: rgb(219, 215, 150);
+    padding: 0;
+    margin: 3px;
+}
+ 
+.Cerio {
+    grid-area: cerio;
+    background-color: rgb(219, 215, 150);
+    padding: 0;
+    margin: 3px;
+}
+ 
+.Praseodimio {
+    grid-area: praseodimio;
+    background-color: rgb(219, 215, 150);
+    padding: 0;
+    margin: 3px;
+}
+ 
+.Neodimio {
+    grid-area: neodimio;
+    background-color: rgb(219, 215, 150);
+    padding: 0;
+    margin: 3px;
+}
+ 
+.Prometio {
+    grid-area: prometio;
+    background-color: rgb(219, 215, 150);
+    padding: 0;
+    margin: 3px;
+}
+ 
+.Samario {
+    grid-area: samario;
+    background-color: rgb(219, 215, 150);
+    padding: 0;
+    margin: 3px;
+}
+ 
+.Europio {
+    grid-area: europio;
+    background-color: rgb(219, 215, 150);
+    padding: 0;
+    margin: 3px;
+}
+ 
+.Gadolinio {
+    grid-area: gadolinio;
+    background-color: rgb(219, 215, 150);
+    padding: 0;
+    margin: 3px;
+}
+ 
+.Terbio {
+    grid-area: terbio;
+    background-color: rgb(219, 215, 150);
+    padding: 0;
+    margin: 3px;
+}
+ 
+.Disprocio {
+    grid-area: disprocio;
+    background-color: rgb(219, 215, 150);
+    padding: 0;
+    margin: 3px;
+}
+ 
+.Holmio {
+    grid-area: holmio;
+    background-color: rgb(219, 215, 150);
+    padding: 0;
+    margin: 3px;
+}
+ 
+.Erbio {
+    grid-area: erbio;
+    background-color: rgb(219, 215, 150);
+    padding: 0;
+    margin: 3px;
+}
+ 
+.Tulio {
+    grid-area: tulio;
+    background-color: rgb(219, 215, 150);
+    padding: 0;
+    margin: 3px;
+}
+ 
+.Iterbio {
+    grid-area: iterbio;
+    background-color: rgb(219, 215, 150);
+    padding: 0;
+    margin: 3px;
+}
+ 
+.Lutecio {
+    grid-area: lutecio;
+    background-color: rgb(3, 131, 190);
+    padding: 0;
+    margin: 3px;
+    color: white;
+}
+ 
+.Hafnio {
+    grid-area: hafnio;
+    background-color: rgb(3, 131, 190);
+    padding: 0;
+    margin: 3px;
+    color: white;
+}
+ 
+.Tantalio {
+    grid-area: tantalio;
+    background-color: rgb(3, 131, 190);
+    padding: 0;
+    margin: 3px;
+    color: white;
+}
+ 
+.Volframio {
+    grid-area: volframio;
+    background-color: rgb(3, 131, 190);
+    padding: 0;
+    margin: 3px;
+    color: white;
+}
+ 
+.Renio {
+    grid-area: renio;
+    background-color: rgb(3, 131, 190);
+    padding: 0;
+    margin: 3px;
+    color: white;
+}
+ 
+.Osmio {
+    grid-area: osmio;
+    background-color: rgb(3, 131, 190);
+    padding: 0;
+    margin: 3px;
+    color: white;
+}
+ 
+.Iridio {
+    grid-area: iridio;
+    background-color: rgb(3, 131, 190);
+    padding: 0;
+    margin: 3px;
+    color: white;
+}
+ 
+.Platino {
+    grid-area: platino;
+    background-color: rgb(3, 131, 190);
+    padding: 0;
+    margin: 3px;
+    color: white;
+}
+ 
+.Oro {
+    grid-area: oro;
+    background-color: rgb(3, 131, 190);
+    padding: 0;
+    margin: 3px;
+    color: white;
+}
+ 
+.Mercurio {
+    grid-area: mercurio;
+    background-color: rgb(3, 131, 190);
+    padding: 0;
+    margin: 3px;
+    color: white;
+}
+ 
+.Talio {
+    grid-area: talio;
+    background-color: rgb(98, 0, 122);
+    padding: 0;
+    margin: 3px;
+    color: white;
+}
+ 
+.Plomo {
+    grid-area: plomo;
+    background-color: rgb(98, 0, 122);
+    padding: 0;
+    margin: 3px;
+    color: white;
+}
+ 
+.Bismuto {
+    grid-area: bismuto;
+    background-color: rgb(98, 0, 122);
+    padding: 0;
+    margin: 3px;
+    color: white;
+}
+ 
+.Polonio {
+    grid-area: polonio;
+    background-color: rgb(207, 0, 69);
+    padding: 0;
+    margin: 3px;
+    color: white;
+}
+ 
+.Astato {
+    grid-area: astato;
+    background-color: rgb(0, 156, 8);
+    padding: 0;
+    margin: 3px;
+}
+ 
+.Radón {
+    grid-area: radón;
+    background-color: rgb(7, 59, 0);
+    padding: 0;
+    margin: 3px;
+    color: white;
+}
+ 
+.Francio {
+    grid-area: francio;
+    background-color: rgb(0, 0, 90);
+    padding: 0;
+    margin: 3px;
+    color: white;
+}
+ 
+ 
+.Actinio {
+    grid-area: actinio;
+    background-color: rgb(3, 131, 190);
+    padding: 0;
+    margin: 3px;
+    color: white;
+}
+ 
+.Torio {
+    grid-area: torio;
+    background-color: rgb(150, 205, 219);
+    padding: 0;
+    margin: 3px;
+}
+ 
+.Protactinio {
+    grid-area: protactinio;
+    background-color: rgb(150, 205, 219);
+    padding: 0;
+    margin: 3px;
+}
+ 
+.Uranio {
+    grid-area: uranio;
+    background-color: rgb(150, 205, 219);
+    padding: 0;
+    margin: 3px;
+}
+
+.Neptunio {
+    grid-area: neptunio;
+    background-color: rgb(150, 205, 219);
+    padding: 0;
+    margin: 3px;
+}
+
+.Plutonio {
+    grid-area: plutonio;
+    background-color: rgb(150, 205, 219);
+    padding: 0;
+    margin: 3px;
+}
+
+.Americio {
+    grid-area: americio;
+    background-color: rgb(150, 205, 219);
+    padding: 0;
+    margin: 3px;
+}
+
+.Curio {
+    grid-area: curio;
+    background-color: rgb(150, 205, 219);
+    padding: 0;
+    margin: 3px;
+}
+
+.Berquelio {
+    grid-area: berquelio;
+    background-color: rgb(150, 205, 219);
+    padding: 0;
+    margin: 3px;
+}
+
+.Californio {
+    grid-area: californio;
+    background-color: rgb(150, 205, 219);
+    padding: 0;
+    margin: 3px;
+}
+
+.Einstenio {
+    grid-area: einstenio;
+    background-color: rgb(150, 205, 219);
+    padding: 0;
+    margin: 3px;
+}
+
+.Fermio {
+    grid-area: fermio;
+    background-color: rgb(150, 205, 219);
+    padding: 0;
+    margin: 3px;
+}
+
+.Mendelevio {
+    grid-area: mendelevio;
+    background-color: rgb(150, 205, 219);
+    padding: 0;
+    margin: 3px;
+}
+
+.Nobelio {
+    grid-area: nobelio;
+    background-color: rgb(150, 205, 219);
+    padding: 0;
+    margin: 3px;
+}
+
+.Laurencio {
+    grid-area: laurencio;
+    background-color: rgb(150, 205, 219);
+    padding: 0;
+    margin: 3px;
+}
+
+.Rutherfordio {
+    grid-area: rutherfordio;
+    background-color: rgb(3, 131, 190);
+    padding: 0;
+    margin: 3px;
+    color: white;
+}
+
+.Dubnio {
+    grid-area: dubnio;
+    background-color: rgb(3, 131, 190);
+    padding: 0;
+    margin: 3px;
+    color: white;
+}
+
+.Seaborgio {
+    grid-area: seaborgio;
+    background-color: rgb(3, 131, 190);
+    padding: 0;
+    margin: 3px;
+    color: white;
+}
+
+.Bohrio {
+    grid-area: bohrio;
+    background-color: rgb(3, 131, 190);
+    padding: 0;
+    margin: 3px;
+    color: white;
+}
+
+.Hassio {
+    grid-area: hassio;
+    background-color: rgb(3, 131, 190);
+    padding: 0;
+    margin: 3px;
+    color: white;
+}
+
+.Meitnerio {
+    grid-area: meitnerio;
+    background-color: rgb(3, 131, 190);
+    padding: 0;
+    margin: 3px;
+    color: white;
+}
+
+.Darmstatio {
+    grid-area: darmstatio;
+    background-color: rgb(3, 131, 190);
+    padding: 0;
+    margin: 3px;
+    color: white;
+}
+
+.Roentgenio {
+    grid-area: roentgenio;
+    background-color: rgb(3, 131, 190);
+    padding: 0;
+    margin: 3px;
+    color: white;
+}
+
+.Copernicio {
+    grid-area: copernicio;
+    background-color: rgb(3, 131, 190);
+    padding: 0;
+    margin: 3px;
+    color: white;
+}
+
+.Nihonio {
+    grid-area: nihonio;
+    background-color: rgb(98, 0, 122);
+    padding: 0;
+    margin: 3px;
+    color: white;
+}
+
+.Flerevio {
+    grid-area: flerevio;
+    background-color: rgb(98, 0, 122);
+    padding: 0;
+    margin: 3px;
+    color: white;
+}
+
+.Moscovio {
+    grid-area: moscovio;
+    background-color: rgb(98, 0, 122);
+    padding: 0;
+    margin: 3px;
+    color: white;
+}
+
+.Livermorio {
+    grid-area: livermorio;
+    background-color: rgb(98, 0, 122);
+    padding: 0;
+    margin: 3px;
+    color: white;
+}
+
+.Teneso {
+    grid-area: teneso;
+    background-color: rgb(0, 156, 8);
+    padding: 0;
+    margin: 3px;
+}
+
+.Oganesón {
+    grid-area: oganesón;
+    background-color: rgb(7, 59, 0);
+    padding: 0;
+    margin: 3px;
+    color: white;
+}
+
+.Berilio {
+    grid-area: berilio;
+    background-color: rgba(255, 238, 0, 0.87);
+    padding: 0;
+    margin: 3px;
+}
+ 
+ 
+.Magnesio {
+    grid-area: magnesio;
+    background-color: rgba(255, 238, 0, 0.87);
+    padding: 0;
+    margin: 3px;
+}
+ 
+
+ 
+.Calcio {
+    grid-area: calcio;
+    background-color: rgba(255, 238, 0, 0.87);
+    padding: 0;
+    margin: 3px;
+}
+ 
+ 
+.Estroncio {
+    grid-area: estroncio;
+    background-color: rgba(255, 238, 0, 0.87);
+    padding: 0;
+    margin: 3px;
+}
+ 
+
+.Bario {
+    grid-area: bario;
+    background-color: rgba(255, 238, 0, 0.87);
+    padding: 0;
+    margin: 3px;
+}
+ 
+
+.Radio {
+    grid-area: radio;
+    background-color: rgba(255, 238, 0, 0.87);
+    padding: 0;
+    margin: 3px;
+}
+
+.prueba {
+    background-color: orchid;
+}
+
+.num {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin:2px 2px 0px 2px;
+}
+
+.Letra {
+    font-size: 35px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.Nombre {
+    text-align: center;
+    margin-bottom: 2px;
+}
+/* .gases_nobles {
+    background-color: rgb(18, 146, 1);
+}  */
+
+
+
+/* .blank {
+    grid-area: blank;
+    background-color: red;
+}
+ */
+/* .na {
+
+} */

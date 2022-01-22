@@ -1,3 +1,5 @@
+sudo -i -u postgres
+
 psql -l # ver bases de deatos creadas
 createdb "nombre sin comillas numeva base de datos"
 psql -d Tablaperiodica #accesar a esa tabla periodica
@@ -17,3 +19,17 @@ SELECT * FROM public.elemento WHERE periodo=7 ORDER BY nombre DESC ;
 
 LIMITE
 SELECT * FROM public.elemento WHERE periodo=7 ORDER BY nombre ASC LIMIT 5;
+
+
+
+
+#Entrar postgres command shell
+sudo -u postgres psql
+ALTER USER postgres PASSWORD 'root';
+
+#entrar postgres
+psql -U postgres -h localhost
+
+#crear user
+CREATE USER django WITH CREATEDB LOGIN ENCRYPTED PASSWORD 'django';
+GRANT ALL PRIVILIGES ON DATABASE django TO nombreddbb
