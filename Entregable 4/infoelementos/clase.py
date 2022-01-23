@@ -82,19 +82,19 @@ class Elemento:
 
 
     def printhtml(self):
-        return f'<div class="{self.Nombre}" id="{self.Nombre}"></div>'
+        return f'<div class="{self.Nombre}" id="{self.Nombre}" onmouseover="imagen(\'{self.Nombre}\')" onclick="plantilla()"></div>'
 
     def printcss(self):
-        if (self.Categoria == "Alcalinotérreos"):
-            print(f'.{self.Nombre}', end=" ") 
-            print('{')
-            print(f'    grid-area: {self.Nombre.lower()};')
-            print(f'    background-color: rgba(255, 238, 0, 0.87);')
-            print(f'    padding: 0;')
-            print(f'    margin: 3px;')
-            #print(f'    color: white;')
-            print('}')
-        """if (self.Categoria == "No Metales"):
+        """if (self.Categoria == "Alcalinotérreos"):
+                                    print(f'.{self.Nombre}', end=" ") 
+                                    print('{')
+                                    print(f'    grid-area: {self.Nombre.lower()};')
+                                    print(f'    background-color: rgba(255, 238, 0, 0.87);')
+                                    print(f'    padding: 0;')
+                                    print(f'    margin: 3px;')
+                                    #print(f'    color: white;')
+                                    print('}')
+                                elif (self.Categoria == "No Metales"):
                                     print(f'.{self.Nombre}', end=" ") 
                                     print('{')
                                     print(f'    grid-area: {self.Nombre.lower()};')
@@ -102,7 +102,7 @@ class Elemento:
                                     print(f'    padding: 0;')
                                     print(f'    margin: 3px;')
                                     print('}')
-                        
+                                                
                                 elif (self.Categoria == "Gases Nobles"):
                                     print(f'.{self.Nombre}', end=" ") 
                                     print('{')
@@ -112,7 +112,7 @@ class Elemento:
                                     print(f'    margin: 3px;')
                                     print(f'    color: white;')
                                     print('}')
-                        
+                                        
                                 elif (self.Categoria == "Metales Alcalinos"):
                                     print(f'.{self.Nombre}', end=" ") 
                                     print('{')
@@ -122,7 +122,7 @@ class Elemento:
                                     print(f'    margin: 3px;')
                                     print(f'    color: white;')
                                     print('}')
-                        
+                                                
                                 elif (self.Categoria == "Metaloides"):
                                     print(f'.{self.Nombre}', end=" ") 
                                     print('{')
@@ -132,7 +132,7 @@ class Elemento:
                                     print(f'    margin: 3px;')
                                     print(f'    color: white;')
                                     print('}')
-                        
+                                    
                                 elif (self.Categoria == "Halógenos"):
                                     print(f'.{self.Nombre}', end=" ") 
                                     print('{')
@@ -142,7 +142,7 @@ class Elemento:
                                     print(f'    margin: 3px;')
                                     #print(f'    color: white;')
                                     print('}')
-                        
+                                        
                                 elif (self.Categoria == "Metales"):
                                     print(f'.{self.Nombre}', end=" ") 
                                     print('{')
@@ -152,7 +152,7 @@ class Elemento:
                                     print(f'    margin: 3px;')
                                     print(f'    color: white;')
                                     print('}')
-                        
+                                        
                                 elif (self.Categoria == "Metales de transición"):
                                     print(f'.{self.Nombre}', end=" ") 
                                     print('{')
@@ -162,7 +162,7 @@ class Elemento:
                                     print(f'    margin: 3px;')
                                     print(f'    color: white;')
                                     print('}')
-                        
+                                                
                                 elif (self.Categoria == "Lantanidos"):
                                     print(f'.{self.Nombre}', end=" ") 
                                     print('{')
@@ -172,7 +172,7 @@ class Elemento:
                                     print(f'    margin: 3px;')
                                     #print(f'    color: white;')
                                     print('}')
-                        
+                                            
                                 elif (self.Categoria == "Actinido"):
                                     print(f'.{self.Nombre}', end=" ") 
                                     print('{')
@@ -183,6 +183,75 @@ class Elemento:
                                     #print(f'    color: white;')
                                     print('}')"""
 
+        if (self.Categoria == "Alcalinotérreos"):
+            print(f'.{self.Nombre}:hover', end=" ") 
+            print('{')
+            print(f'    background-color: rgba(255, 248, 143, 0.87);')
+            print(f'    cursor: pointer;')
+            print('}')
+        elif (self.Categoria == "No Metales"):
+            print(f'.{self.Nombre}:hover', end=" ") 
+            print('{')
+            print(f'    background-color: rgb(255, 167, 109);')
+            print(f'    cursor: pointer;')
+            print('}')
+                        
+        elif (self.Categoria == "Gases Nobles"):
+            print(f'.{self.Nombre}:hover', end=" ") 
+            print('{')
+            print(f'    background-color: rgb(105, 134, 101);')
+            print(f'    cursor: pointer;')
+            print('}')
+                
+        elif (self.Categoria == "Metales Alcalinos"):
+            print(f'.{self.Nombre}:hover', end=" ") 
+            print('{')
+            print(f'    background-color: rgb(89, 89, 126);')
+            print(f'    cursor: pointer;')
+            print('}')
+                        
+        elif (self.Categoria == "Metaloides"):
+            print(f'.{self.Nombre}:hover', end=" ") 
+            print('{')
+            print(f'    background-color: rgb(231, 137, 168);')
+            print(f'    cursor: pointer;')
+            print('}')
+            
+        elif (self.Categoria == "Halógenos"):
+            print(f'.{self.Nombre}:hover', end=" ") 
+            print('{')
+            print(f'    background-color: rgb(129, 192, 132);')
+            print(f'    cursor: pointer;')
+            print('}')
+                
+        elif (self.Categoria == "Metales"):
+            print(f'.{self.Nombre}:hover', end=" ") 
+            print('{')
+            print(f'    background-color: rgb(184, 110, 202);')
+            print(f'    cursor: pointer;')
+            print('}')
+                
+        elif (self.Categoria == "Metales de transición"):
+            print(f'.{self.Nombre}:hover', end=" ") 
+            print('{')
+            print(f'    background-color: rgb(180, 219, 238);')
+            print(f'    cursor: pointer;')
+            print(f'    color:black;')
+            print('}')
+                        
+        elif (self.Categoria == "Lantanidos"):
+            print(f'.{self.Nombre}:hover', end=" ") 
+            print('{')
+            print(f'    background-color: rgb(252, 250, 210);')
+            print(f'    cursor: pointer;')
+            print('}')
+                    
+        elif (self.Categoria == "Actinido"):
+            print(f'.{self.Nombre}:hover', end=" ") 
+            print('{')
+            print(f'    background-color: rgb(200, 250, 247);')
+            print(f'    cursor: pointer;')
+            print('}')
 
 
 

@@ -34,7 +34,7 @@ print(nom)"""
     i.Imprimir_Info()"""
 
 for i in ListaElementos:
-	print(i.printcss())
+	i.printcss()
 
 
 

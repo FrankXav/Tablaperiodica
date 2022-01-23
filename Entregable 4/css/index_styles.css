@@ -40,6 +40,191 @@ body {
     grid-template-rows: repeat(7, 90px) 40px 90px 90px ;
 }
 
+.imagen {
+    grid-area: imagen;
+   /*  background-color: rgb(255, 102, 0); */
+   padding: 0;
+}
+
+.contenedorimg {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+.imagenh {
+    margin: 17px auto;
+    height: 240px;
+    width: 240px;
+}
+
+.NoMetales{
+    background-color: rgb(255, 102, 0);
+    
+} 
+
+.GasesNobles {
+    background-color: rgb(7, 59, 0);
+    color: white;
+}
+
+.MetalesAlcalinos {
+    background-color: rgb(0, 0, 90);
+    color: white;
+}
+
+.Alcalinotérreos {
+    background-color: rgba(255, 238, 0, 0.87);
+}
+
+.Metaloides {
+    background-color: rgb(207, 0, 69);
+    color: white;
+}
+
+.Halógenos {
+    background-color: rgb(0, 156, 8);
+}
+
+.Metales {
+    background-color: rgb(98, 0, 122);
+    color: white;
+}
+
+.Metalesdetransición {
+    background-color: rgb(3, 131, 190);
+    color: white;
+}
+
+.Lantanidos {
+    background-color: rgb(219, 215, 150);
+}
+
+.Actinido {
+    background-color: rgb(150, 205, 219);
+}
+
+.numi {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 35px;
+    align-items: center;
+    margin:2px 2px 0px 2px;
+}
+
+.nombresNumi {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 15px;
+    align-items: center;
+    margin:0px 5px 5px;
+}
+
+.Letrai {
+    font-size: 90px;
+    font-weight: bold;
+    margin-top: -15px;
+
+    padding: 0;
+    text-align: center;
+}
+
+.Nombrei {
+    text-align: center;
+    font-size: 35px;
+
+}
+
+.catergorias{
+    grid-area: categorias;
+}
+
+.contcategorias {
+    display: grid;
+    height: 100%;
+    grid-template-areas: "GasesNoblesc Metalesdetransiciónc"
+                        "Halógenosc Alcalinotérreosc"
+                        "NoMetalesc MetalesAlcalinosc"
+                        "Metaloidesc Lantanidosc"
+                        "Metalesc Actinidoc";
+    grid-template-columns: 45% 55%;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+
+}
+
+.GasesNoblesc {
+    grid-area: GasesNoblesc;
+    display: flex;
+    flex-direction: row;
+}
+
+.Metalesdetransiciónc {
+    grid-area: Metalesdetransiciónc;
+    display: flex;
+    flex-direction: row;
+}
+
+.Halógenosc {
+    grid-area: Halógenosc;
+    display: flex;
+    flex-direction: row;
+}
+
+.Alcalinotérreosc {
+    grid-area: Alcalinotérreosc;
+    display: flex;
+    flex-direction: row;
+}
+
+.NoMetalesc {
+    grid-area: NoMetalesc;
+    display: flex;
+    flex-direction: row;
+}
+
+.MetalesAlcalinosc {
+    grid-area: MetalesAlcalinosc;
+    display: flex;
+    flex-direction: row;
+}
+
+.Metaloidesc {
+    grid-area: Metaloidesc;
+    display: flex;
+    flex-direction: row;
+}
+
+.Lantanidosc {
+    grid-area: Lantanidosc;
+    display: flex;
+    flex-direction: row;
+}
+
+.Metalesc {
+    grid-area: Metalesc;
+    display: flex;
+    flex-direction: row;
+}
+.Actinidoc {
+    grid-area: Actinidoc;
+    display: flex;
+    flex-direction: row;
+}
+
+.cuadroc {
+    height: 30px;
+    width: 30px;
+    margin: auto 10px auto 0px;
+}
+
+.textoCategorias {
+    margin: auto 0px;
+    font-size: 23px;
+    font-weight: bold;
+}
 
 .Hidrogeno {
     grid-area: hidrogeno;
@@ -64,7 +249,6 @@ body {
     color: white;
 }
  
- 
 .Boro {
     grid-area: boro;
     background-color: rgb(207, 0, 69);
@@ -72,6 +256,7 @@ body {
     margin: 3px;
     color: white;
 }
+
  
 .Carbono {
     grid-area: carbono;
@@ -101,6 +286,7 @@ body {
     margin: 3px;
 }
  
+
 .Neon {
     grid-area: neon;
     background-color: rgb(7, 59, 0);
@@ -125,6 +311,7 @@ body {
     margin: 3px;
     color: white;
 }
+
  
 .Silicio {
     grid-area: silicio;
@@ -504,6 +691,10 @@ body {
     background-color: rgb(219, 215, 150);
     padding: 0;
     margin: 3px;
+}
+
+.Terbio:hover {
+    background-color: rgb(252, 250, 210);
 }
  
 .Disprocio {
@@ -908,8 +1099,7 @@ body {
     padding: 0;
     margin: 3px;
 }
- 
- 
+
 .Magnesio {
     grid-area: magnesio;
     background-color: rgba(255, 238, 0, 0.87);
@@ -974,6 +1164,519 @@ body {
     text-align: center;
     margin-bottom: 2px;
 }
+
+.Hidrogeno:hover {
+    background-color: rgb(255, 167, 109);
+    cursor: pointer;
+}
+.Helio:hover {
+    background-color: rgb(105, 134, 101);
+    cursor: pointer;
+}
+.Litio:hover {
+    background-color: rgb(89, 89, 126);
+    cursor: pointer;
+}
+.Berilio:hover {
+    background-color: rgba(255, 248, 143, 0.87);
+    cursor: pointer;
+}
+.Boro:hover {
+    background-color: rgb(231, 137, 168);
+    cursor: pointer;
+}
+.Carbono:hover {
+    background-color: rgb(255, 167, 109);
+    cursor: pointer;
+}
+.Nitrogeno:hover {
+    background-color: rgb(255, 167, 109);
+    cursor: pointer;
+}
+.Oxigeno:hover {
+    background-color: rgb(255, 167, 109);
+    cursor: pointer;
+}
+.Fluor:hover {
+    background-color: rgb(129, 192, 132);
+    cursor: pointer;
+}
+.Neon:hover {
+    background-color: rgb(105, 134, 101);
+    cursor: pointer;
+}
+.Sodio:hover {
+    background-color: rgb(89, 89, 126);
+    cursor: pointer;
+}
+.Magnesio:hover {
+    background-color: rgba(255, 248, 143, 0.87);
+    cursor: pointer;
+}
+.Aluminio:hover {
+    background-color: rgb(184, 110, 202);
+    cursor: pointer;
+}
+.Silicio:hover {
+    background-color: rgb(231, 137, 168);
+    cursor: pointer;
+}
+.Fosforo:hover {
+    background-color: rgb(255, 167, 109);
+    cursor: pointer;
+}
+.Azufre:hover {
+    background-color: rgb(255, 167, 109);
+    cursor: pointer;
+}
+.Cloro:hover {
+    background-color: rgb(129, 192, 132);
+    cursor: pointer;
+}
+.Argon:hover {
+    background-color: rgb(105, 134, 101);
+    cursor: pointer;
+}
+.Potasio:hover {
+    background-color: rgb(89, 89, 126);
+    cursor: pointer;
+}
+.Calcio:hover {
+    background-color: rgba(255, 248, 143, 0.87);
+    cursor: pointer;
+}
+.Escandio:hover {
+    background-color: rgb(180, 219, 238);
+    cursor: pointer;
+    color:black;
+}
+.Titanio:hover {
+    background-color: rgb(180, 219, 238);
+    cursor: pointer;
+    color:black;
+}
+.Vanadio:hover {
+    background-color: rgb(180, 219, 238);
+    cursor: pointer;
+    color:black;
+}
+.Cromo:hover {
+    background-color: rgb(180, 219, 238);
+    cursor: pointer;
+    color:black;
+}
+.Manganeso:hover {
+    background-color: rgb(180, 219, 238);
+    cursor: pointer;
+    color:black;
+}
+.Hierro:hover {
+    background-color: rgb(180, 219, 238);
+    cursor: pointer;
+    color:black;
+}
+.Cobalto:hover {
+    background-color: rgb(180, 219, 238);
+    cursor: pointer;
+    color:black;
+}
+.Niquel:hover {
+    background-color: rgb(180, 219, 238);
+    cursor: pointer;
+    color:black;
+}
+.Cobre:hover {
+    background-color: rgb(180, 219, 238);
+    cursor: pointer;
+    color:black;
+}
+.Zinc:hover {
+    background-color: rgb(180, 219, 238);
+    cursor: pointer;
+    color:black;
+}
+.Galio:hover {
+    background-color: rgb(184, 110, 202);
+    cursor: pointer;
+}
+.Germanio:hover {
+    background-color: rgb(231, 137, 168);
+    cursor: pointer;
+}
+.Arsenico:hover {
+    background-color: rgb(231, 137, 168);
+    cursor: pointer;
+}
+.Selenio:hover {
+    background-color: rgb(255, 167, 109);
+    cursor: pointer;
+}
+.Bromo:hover {
+    background-color: rgb(129, 192, 132);
+    cursor: pointer;
+}
+.Kriptón:hover {
+    background-color: rgb(105, 134, 101);
+    cursor: pointer;
+}
+.Rubidio:hover {
+    background-color: rgb(89, 89, 126);
+    cursor: pointer;
+}
+.Estroncio:hover {
+    background-color: rgba(255, 248, 143, 0.87);
+    cursor: pointer;
+}
+.Itrio:hover {
+    background-color: rgb(180, 219, 238);
+    cursor: pointer;
+    color:black;
+}
+.Zirconio:hover {
+    background-color: rgb(180, 219, 238);
+    cursor: pointer;
+    color:black;
+}
+.Niobio:hover {
+    background-color: rgb(180, 219, 238);
+    cursor: pointer;
+    color:black;
+}
+.Molibdeno:hover {
+    background-color: rgb(180, 219, 238);
+    cursor: pointer;
+    color:black;
+}
+.Tecnecio:hover {
+    background-color: rgb(180, 219, 238);
+    cursor: pointer;
+    color:black;
+}
+.Rutenio:hover {
+    background-color: rgb(180, 219, 238);
+    cursor: pointer;
+    color:black;
+}
+.Rodio:hover {
+    background-color: rgb(180, 219, 238);
+    cursor: pointer;
+    color:black;
+}
+.Paladio:hover {
+    background-color: rgb(180, 219, 238);
+    cursor: pointer;
+    color:black;
+}
+.Plata:hover {
+    background-color: rgb(180, 219, 238);
+    cursor: pointer;
+    color:black;
+}
+.Cadmio:hover {
+    background-color: rgb(180, 219, 238);
+    cursor: pointer;
+    color:black;
+}
+.Indio:hover {
+    background-color: rgb(184, 110, 202);
+    cursor: pointer;
+}
+.Estaño:hover {
+    background-color: rgb(184, 110, 202);
+    cursor: pointer;
+}
+.Antimonio:hover {
+    background-color: rgb(231, 137, 168);
+    cursor: pointer;
+}
+.Teluro:hover {
+    background-color: rgb(231, 137, 168);
+    cursor: pointer;
+}
+.Yodo:hover {
+    background-color: rgb(129, 192, 132);
+    cursor: pointer;
+}
+.Xenón:hover {
+    background-color: rgb(105, 134, 101);
+    cursor: pointer;
+}
+.Cesio:hover {
+    background-color: rgb(89, 89, 126);
+    cursor: pointer;
+}
+.Bario:hover {
+    background-color: rgba(255, 248, 143, 0.87);
+    cursor: pointer;
+}
+.Latano:hover {
+    background-color: rgb(252, 250, 210);
+    cursor: pointer;
+}
+.Cerio:hover {
+    background-color: rgb(252, 250, 210);
+    cursor: pointer;
+}
+.Praseodimio:hover {
+    background-color: rgb(252, 250, 210);
+    cursor: pointer;
+}
+.Neodimio:hover {
+    background-color: rgb(252, 250, 210);
+    cursor: pointer;
+}
+.Prometio:hover {
+    background-color: rgb(252, 250, 210);
+    cursor: pointer;
+}
+.Samario:hover {
+    background-color: rgb(252, 250, 210);
+    cursor: pointer;
+}
+.Europio:hover {
+    background-color: rgb(252, 250, 210);
+    cursor: pointer;
+}
+.Gadolinio:hover {
+    background-color: rgb(252, 250, 210);
+    cursor: pointer;
+}
+.Terbio:hover {
+    background-color: rgb(252, 250, 210);
+    cursor: pointer;
+}
+.Disprocio:hover {
+    background-color: rgb(252, 250, 210);
+    cursor: pointer;
+}
+.Holmio:hover {
+    background-color: rgb(252, 250, 210);
+    cursor: pointer;
+}
+.Erbio:hover {
+    background-color: rgb(252, 250, 210);
+    cursor: pointer;
+}
+.Tulio:hover {
+    background-color: rgb(252, 250, 210);
+    cursor: pointer;
+}
+.Iterbio:hover {
+    background-color: rgb(252, 250, 210);
+    cursor: pointer;
+}
+.Lutecio:hover {
+    background-color: rgb(180, 219, 238);
+    cursor: pointer;
+    color:black;
+}
+.Hafnio:hover {
+    background-color: rgb(180, 219, 238);
+    cursor: pointer;
+    color:black;
+}
+.Tantalio:hover {
+    background-color: rgb(180, 219, 238);
+    cursor: pointer;
+    color:black;
+}
+.Volframio:hover {
+    background-color: rgb(180, 219, 238);
+    cursor: pointer;
+    color:black;
+}
+.Renio:hover {
+    background-color: rgb(180, 219, 238);
+    cursor: pointer;
+    color:black;
+}
+.Osmio:hover {
+    background-color: rgb(180, 219, 238);
+    cursor: pointer;
+    color:black;
+}
+.Iridio:hover {
+    background-color: rgb(180, 219, 238);
+    cursor: pointer;
+    color:black;
+}
+.Platino:hover {
+    background-color: rgb(180, 219, 238);
+    cursor: pointer;
+    color:black;
+}
+.Oro:hover {
+    background-color: rgb(180, 219, 238);
+    cursor: pointer;
+    color:black;
+}
+.Mercurio:hover {
+    background-color: rgb(180, 219, 238);
+    cursor: pointer;
+    color:black;
+}
+.Talio:hover {
+    background-color: rgb(184, 110, 202);
+    cursor: pointer;
+}
+.Plomo:hover {
+    background-color: rgb(184, 110, 202);
+    cursor: pointer;
+}
+.Bismuto:hover {
+    background-color: rgb(184, 110, 202);
+    cursor: pointer;
+}
+.Polonio:hover {
+    background-color: rgb(231, 137, 168);
+    cursor: pointer;
+}
+.Astato:hover {
+    background-color: rgb(129, 192, 132);
+    cursor: pointer;
+}
+.Radón:hover {
+    background-color: rgb(105, 134, 101);
+    cursor: pointer;
+}
+.Francio:hover {
+    background-color: rgb(89, 89, 126);
+    cursor: pointer;
+}
+.Radio:hover {
+    background-color: rgba(255, 248, 143, 0.87);
+    cursor: pointer;
+}
+.Actinio:hover {
+    background-color: rgb(200, 250, 247);
+    cursor: pointer;
+}
+.Torio:hover {
+    background-color: rgb(200, 250, 247);
+    cursor: pointer;
+}
+.Protactinio:hover {
+    background-color: rgb(200, 250, 247);
+    cursor: pointer;
+}
+.Uranio:hover {
+    background-color: rgb(200, 250, 247);
+    cursor: pointer;
+}
+.Neptunio:hover {
+    background-color: rgb(200, 250, 247);
+    cursor: pointer;
+}
+.Plutonio:hover {
+    background-color: rgb(200, 250, 247);
+    cursor: pointer;
+}
+.Americio:hover {
+    background-color: rgb(200, 250, 247);
+    cursor: pointer;
+}
+.Curio:hover {
+    background-color: rgb(200, 250, 247);
+    cursor: pointer;
+}
+.Berquelio:hover {
+    background-color: rgb(200, 250, 247);
+    cursor: pointer;
+}
+.Californio:hover {
+    background-color: rgb(200, 250, 247);
+    cursor: pointer;
+}
+.Einstenio:hover {
+    background-color: rgb(200, 250, 247);
+    cursor: pointer;
+}
+.Fermio:hover {
+    background-color: rgb(200, 250, 247);
+    cursor: pointer;
+}
+.Mendelevio:hover {
+    background-color: rgb(200, 250, 247);
+    cursor: pointer;
+}
+.Nobelio:hover {
+    background-color: rgb(200, 250, 247);
+    cursor: pointer;
+}
+.Laurencio:hover {
+    background-color: rgb(200, 250, 247);
+    cursor: pointer;
+}
+.Rutherfordio:hover {
+    background-color: rgb(180, 219, 238);
+    cursor: pointer;
+    color:black;
+}
+.Dubnio:hover {
+    background-color: rgb(180, 219, 238);
+    cursor: pointer;
+    color:black;
+}
+.Seaborgio:hover {
+    background-color: rgb(180, 219, 238);
+    cursor: pointer;
+    color:black;
+}
+.Bohrio:hover {
+    background-color: rgb(180, 219, 238);
+    cursor: pointer;
+    color:black;
+}
+.Hassio:hover {
+    background-color: rgb(180, 219, 238);
+    cursor: pointer;
+    color:black;
+}
+.Meitnerio:hover {
+    background-color: rgb(180, 219, 238);
+    cursor: pointer;
+    color:black;
+}
+.Darmstatio:hover {
+    background-color: rgb(180, 219, 238);
+    cursor: pointer;
+    color:black;
+}
+.Roentgenio:hover {
+    background-color: rgb(180, 219, 238);
+    cursor: pointer;
+    color:black;
+}
+.Copernicio:hover {
+    background-color: rgb(180, 219, 238);
+    cursor: pointer;
+    color:black;
+}
+.Nihonio:hover {
+    background-color: rgb(184, 110, 202);
+    cursor: pointer;
+}
+.Flerevio:hover {
+    background-color: rgb(184, 110, 202);
+    cursor: pointer;
+}
+.Moscovio:hover {
+    background-color: rgb(184, 110, 202);
+    cursor: pointer;
+}
+.Livermorio:hover {
+    background-color: rgb(184, 110, 202);
+    cursor: pointer;
+}
+.Teneso:hover {
+    background-color: rgb(129, 192, 132);
+    cursor: pointer;
+}
+.Oganesón:hover {
+    background-color: rgb(105, 134, 101);
+    cursor: pointer;
+}
+
 /* .gases_nobles {
     background-color: rgb(18, 146, 1);
 }  */
